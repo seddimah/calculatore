@@ -1,0 +1,139 @@
+
+body {
+  background-color: rgb(65, 25, 73);
+  font-family: 'open sans', sans-serif;
+}
+
+#container {
+  width: 1000px;
+  height: 650px;
+
+  margin: 20px auto;
+}
+
+#my-calculator {
+  width: 350px;
+  height: 650px;
+  background-color:rgb(0, 0, 0);
+  position: relative;
+  top: 20px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 8px 8px 8px #888888;
+  
+}
+
+#result {
+  height: 150px;
+  text-align: right;
+}
+
+#history {
+  text-align: right;
+  height: 50px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+#history_button , #keyboard_button {
+  color: white;
+  font-size: 18px;
+  float: left;
+  display: inline;
+  background-color: black;
+  border: none;
+}
+#history_button:hover{
+  cursor: pointer;
+}
+#output-value{
+  display: inline;
+}
+#history-value , #output-value{
+  color: white;
+}
+#output {
+  height: 70px;
+  text-align: right;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+#keywboard {
+  height: 500px;
+  background-color: black;
+  padding-left: 15px;
+  border-top: 1px solid white;
+}
+
+ .number, .opt, .point, .braces {
+  width: 75px;
+  height: 75px;
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  
+
+}
+
+button{
+  margin-top: 15px;
+  margin-right: 5px;
+}
+button:hover{
+  background-color: #919191;
+}
+.opt, .braces {
+  background-color: rgb(165, 165, 165);
+  color: black
+
+}
+.opt_org{
+  background-color: rgb(254, 158, 9);
+  color: white;
+}
+.number, .opt, .point, .braces {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.number:active, .opt:active {
+  font-size: 13px;
+}
+
+
+.point , .number {
+  background-color: rgb(51, 51, 51);
+
+}
+
+#history_box{
+  display: none;
+  background-color: rgb(61, 43, 70);
+  height: 500px;
+  padding-left: 15px;
+  border-top: 1px solid white;
+}
+#keyboard_button{
+  display: none;
+}
+#back-space{
+  font-size: 9px;
+  border-radius:5%;
+  padding: 0;
+  width: 50px;
+  height: 30px;
+  margin-top: 0;
+  color: white;
+}
+#history_box p{
+  color: white;
+  font-size: 18px;
+}
